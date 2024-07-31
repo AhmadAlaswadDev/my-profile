@@ -48,7 +48,7 @@ const Menu = [
 	{
 		id: 8,
 		image: Work8,
-		title: "MyBill mobile Application",
+		title: "MyBill Platform Mobile Application",
 		category: ["Mobile Applcation",'Laravel','Flutter'],
 		url: "",
 		repositoryUrl: ""

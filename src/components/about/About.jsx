@@ -40,6 +40,8 @@ const About = () => {
                             <li>Mysql</li>
                             <li>MongoDB</li>
                             <li>Bootstrap</li>
+                            <li>REST API</li>
+                            <li>Git</li>
 
                         </ul>
                         <button className="btn" onClick={downloadResume}>Donwload CV</button>
