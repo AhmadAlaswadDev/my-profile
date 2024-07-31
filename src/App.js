@@ -6,11 +6,11 @@ import About from './components/about/About';
 import Services from './components/services/Services';
 import Resume from './components/resume/Resume';
 import Portfolio from './components/portfolio/Portfolio';
-import Testimonials from './components/testimonials/Testimonials';
-import Blog from './components/blog/Blog';
+// import Testimonials from './components/testimonials/Testimonials';
+// import Blog from './components/blog/Blog';
 import Contact from './components/contact/Contact';
 import useLocalStorage from 'use-local-storage'
-
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
     const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
@@ -34,6 +34,7 @@ function App() {
                 {/* <Blog /> */}
                 <Contact theme={theme} />
             </main>
+            <Analytics mode={'production'}></Analytics>
         </div>
     );
 }
