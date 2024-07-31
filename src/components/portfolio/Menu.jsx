@@ -39,7 +39,7 @@ const Menu = [
 	{
 		id: 7,
 		image: Work7,
-		title: "Amman Auto mobile application",
+		title: "Amman Auto Mobile Application",
 		category: ["Mobile Applcation",'Laravel','Flutter'],
 		url: "",
 		repositoryUrl: ""
@@ -48,7 +48,7 @@ const Menu = [
 	{
 		id: 8,
 		image: Work8,
-		title: "MyBill mobile application",
+		title: "MyBill mobile Application",
 		category: ["Mobile Applcation",'Laravel','Flutter'],
 		url: "",
 		repositoryUrl: ""
