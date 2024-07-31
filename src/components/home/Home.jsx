@@ -11,7 +11,7 @@ const Home = () => {
             <div className="intro">
                 <img src={Me} alt="" className='home__img' width='120' />
                 <h1 className="home__name">Ahmad Al-Aswad</h1>
-                <span className="home__education">I'm a Full Stack Software Engineer</span>
+                <span className="home__education">I'm a Full Stack Software Developer</span>
 
                 <HeaderSocials />
 

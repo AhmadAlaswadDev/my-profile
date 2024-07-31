@@ -38,6 +38,7 @@ const About = () => {
                             <li>React</li>
                             <li>Mysql</li>
                             <li>MongoDB</li>
+                            <li>Bootstrap</li>
 
                         </ul>
                         <button className="btn" onClick={downloadResume}>Donwload CV</button>

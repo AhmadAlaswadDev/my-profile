@@ -25,17 +25,23 @@ const Portfolio = () => {
 				<span className={activeFilter === 0 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { setItems(Menu); setActiveFilter(0) }}>
 					All
 				</span>
-				<span className={activeFilter === 1 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("Frontend"); setActiveFilter(1) }}>
-					Frontend
+				
+				<span className={activeFilter === 1 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("Website"); setActiveFilter(1) }}>
+					Websites
 				</span>
-				<span className={activeFilter === 2 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("Backend"); setActiveFilter(2) }}>
-					Backend
+				
+				<span className={activeFilter === 2 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("Mobile Applcation"); setActiveFilter(2) }}>
+					Mobile Applcation
 				</span>
-				<span className={activeFilter === 3 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("Angular"); setActiveFilter(3) }}>
-					Angular
+
+				<span className={activeFilter === 3 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("Laravel"); setActiveFilter(3) }}>
+					Laravel
 				</span>
-				<span className={activeFilter === 4 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("React"); setActiveFilter(4) }}>
-					React
+				<span className={activeFilter === 4 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("VueJs"); setActiveFilter(4) }}>
+					VueJS
+				</span>
+				<span className={activeFilter === 5 ? 'portfolio__item portfolio__item-active' : 'portfolio__item'} onClick={() => { filterItems("Flutter"); setActiveFilter(5) }}>
+					Flutter
 				</span>
 			</div>
 
