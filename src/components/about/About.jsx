@@ -33,6 +33,7 @@ const About = () => {
                             <li>Laravel Framework</li>
                             <li>Node.js</li>
                             <li>Express.js</li>
+                            <li>JavaScript</li>
                             <li>TypeScript</li>
                             <li>VueJS</li>
                             <li>React</li>
